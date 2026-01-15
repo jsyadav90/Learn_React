@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+html,body{
+  height: 100vh;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 250px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin-bottom: 20px;
+}
+
+.top img{
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+ 
+}
+.top button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid #aaa;
+  padding: 5px 8px;
+  background-color: transparent;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.middle{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.middle-1, .middle-3{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+
+}
+
+.middle-1 span{
+  font-size: 12px;
+}
+
+.middle-3{
+  font-size: 12px;
+}
+
+.middle-3 span{
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 10px;
+  background-color: #aaaaaa34;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  padding: 4px;
+}
+
+.bottom{
+  height: 50px;
+  border-top: 1px solid #aaa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom-1 p{
+  font-size: 10px;
+}
+
+.bottom-2 button{
+  padding: 3px 8px;
+  background-color: #111;
+  color:#fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
